@@ -1,0 +1,183 @@
+/* Ingresa tu css aqui */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 960px;
+	padding-top: 20px;
+	padding-left: 10px; 
+	padding-right: 10px;
+	margin: 0px auto;
+}
+
+.logo {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+header nav ul {
+	list-style: none;
+}
+
+.lista {
+	float: left;
+	padding-left: 30px;
+}
+
+.menu {
+	float: left;
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 22px;
+	display: inline-block;
+}
+
+.border-line {
+	border: 1px solid black;
+	float: left;
+	width: 0px;
+	height: 25px;
+	margin-top: 10px;
+	margin-left: 80px;
+	margin-right: 40px;
+}
+
+.link {
+	text-decoration: none;
+	color: black;
+}
+
+.borde {
+	border: 0.01px solid black;
+	width: 100%;
+	clear: both;
+}
+
+.imagen {
+	margin-top: 10px;
+	width: 100%;
+}
+
+.align .line {
+	border: 1px solid gray;
+	width: 70px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.container .align .line {
+	margin-left: 45%;
+}
+
+.align {
+	text-align: center;
+	padding-top: 30px;
+	padding-left: 200px;
+	padding-right: 200px;
+	font-size: 25px;
+}
+
+.border{
+	border: 3px solid black;
+	width: 80px;
+}
+
+.container .border {
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
+.box {
+	margin: 30px 120px;
+}
+
+.image {
+	opacity: 0.7;
+}
+
+.caja {
+	position: relative;
+	display: inline-block;
+	margin: 5px;
+}
+
+span {
+	position: absolute;
+	bottom:15px;
+	right: 10px;
+	color: white;
+}
+
+.footer {
+	margin-top: 20px;
+}
+
+div .img-centro {
+	height: 200px;
+	width: 200px;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	border-radius: 50%;
+	background-size: 100% auto;
+	margin-top: 20px;
+	margin-left: 40%;
+}
+
+.dato-nombre {
+	margin-top: 15px;
+	margin-left: 40%;
+	margin-bottom: 15px;
+}
+
+.dato-descrip {
+	text-align: center;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+.lista {
+	list-style: none;
+}
+
+.lista-hab {
+	background-color: gray;
+	height: 60px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+}
+
+.container .subtitulo {
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+
+.container .lista .lista-uno {
+	width: 600px;
+}
+
+.container .lista .lista-dos {
+	width: 400px;
+}
+
+.container .lista .lista-tres {
+	width: 200px;
+}
+
+.image-footer {
+	width: 200px;
+	height: 160px;
+	margin: 10px;
+}
+
+.borde-externo {
+	border: 1px solid black;
+	margin-bottom: 20px;
+}
